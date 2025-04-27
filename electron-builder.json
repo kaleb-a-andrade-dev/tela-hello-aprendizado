@@ -1,0 +1,23 @@
+{
+    "appId": "hello-aprendizado",
+    "productName": "Hello Universitário GPL",
+    "directories": {
+        "output": "dist"
+    },
+    "files": [
+    "main/**/*",
+    "out/**/*",
+    "package.json",
+    "preload.mjs"
+    ],
+    "win": {
+    "target": "nsis",
+    "icon": "/public/icon.ico"
+    },
+    "mac": {
+    "target": "dmg"
+    },
+    "linux": {
+    "target": "AppImage"
+    }
+}
